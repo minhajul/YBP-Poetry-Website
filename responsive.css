@@ -1,0 +1,166 @@
+/* Default Layout: 1260px.  */
+.rotk-right-image img{
+    margin-top: 88px;
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.rotk-left-image img{
+	margin-top:20px;
+}
+
+.rotk-dashedline{
+	left:10%;
+}
+.rotk-right-image img{
+	margin-bottom: 13px;
+	margin-top: 0;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 13px;
+	padding-left: 13px;
+}
+.navbar-default .navbar-nav > li > a {
+
+	margin-left: 14px;
+	margin-right:0px;
+}
+	
+}
+
+/* Mobile Layout: 450px. */
+
+@media only screen and (max-width: 767px) {
+
+.rotk-right-image img{
+	margin-top: 0px;
+	margin-bottom: 15px;
+} 
+	
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.rotk-send-mail h4 {
+	font-size: 14px;
+	margin-bottom: 63px;
+}
+
+.rotk-send-mail h4 span {
+	margin-left: 73px;
+}
+
+.rotk-dashedline img{
+	height: 230px;
+	width: 237px;
+}
+.rotk-dashedline{
+	left:25%;
+}
+
+.rotk-form-custom {
+	position:relative;
+	margin-left: 41%;
+	top:10%;
+}
+
+.form-group .col-md-12{
+	text-align:left;
+	padding:0;
+}
+
+.rotk-left-image img{
+    margin-top:4px;
+} 
+
+.rotk-btn-lg {
+	font-size: 8px;
+	margin-right: 44px;
+	margin-top: 5px;
+	width: 53%;
+}
+
+.btn-lg{
+   padding: 3px 13px;
+}
+
+#johny-img {
+    margin-top: 39px;
+	margin-left:-33px;
+}
+.btn-lg  span{
+    font-size: 12px;
+}
+.item h1 {
+    font-size: 27px;
+}
+.carousel-control.left {
+    left:-40px;
+}
+.carousel-control.right {
+    right:-14px;
+}
+	
+}
+@media only screen and (max-width: 667px){
+.rotk-dashedline{
+    left:20%;
+}
+    
+}
+@media only screen and (max-width: 567px){
+.rotk-dashedline{
+    left:14%;
+}
+}
+@media only screen and (max-width: 467px){
+.rotk-dashedline{
+    left:9%;
+}
+.rotk-six-poem-bottom,.rotk-about-us-bottom,.rotk-taster-bottom,.rotk-footer-top{
+	background-size:100% 100% !important;
+	width:100% !important;
+}
+.rotk-six-poem-bottom img,
+.rotk-about-us-bottom img,
+.rotk-taster-bottom img,
+.rotk-footer-top img{
+    width:100% !important;
+    background-size:100% 100% !important;
+}
+}
+@media only screen and (max-width: 367px){
+.rotk-dashedline{
+    left:13%;
+}
+
+}
+
+@media only screen and (min-width: 344px) and (max-width: 367px) {
+.rotk-dashedline{
+	left:6%;
+	top:-23px;
+}
+}
+
+@media only screen and (min-width: 344px) and (max-width: 450px) {
+   
+.rotk-form-custom{
+	margin-left:23%;
+}
+	
+}
+
+@media only screen and (min-width: 100px) and (max-width: 343px) {
+
+.rotk-form-custom{
+    margin-left:20%;
+}
+
+}

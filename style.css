@@ -1,0 +1,403 @@
+body {
+	margin:0 auto;
+	background-size: 100% 100% !important;
+	-moz-background-size:100% 100%;  /* Firefox 3.6 */
+}
+
+.fix {overflow:hidden}
+
+.floatleft {float:left}
+
+.floatright {float:right}
+
+.alignleft {float:left;margin-right:10px;}
+
+.alignright {float:right;margin-left:10px;}
+
+.aligncenter {display:block;margin:0 auto;}
+
+a, a:active, a:focus, a:active {text-decoration:none !important}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	margin:0 0 15px;
+	font-family: "Theano Didot";
+}
+
+p{
+    font-family: "Theano Didot";
+}
+
+ul {
+   margin:0;
+   padding:0;
+   list-style:none;
+}
+
+img {max-width:100%}
+
+.rotk-fixed-navbar{
+	position: fixed!important;
+	top: 0;
+	left: 0;
+	background: url('images/navbar-bg.png') top left repeat;
+	width: 100%;
+	border-radius:0!important;
+}
+
+.rotk-pushdown{
+	position:absolute!important;
+	top:46px;
+	left:0; 
+}
+
+.rotk-six-poem-bottom{
+    background:url('images/six-poem-bottom-bg.jpg') top left repeat;
+    background-size:100% 100% !important;
+	-moz-background-size:100% 100%;  /* Firefox 3.6 */
+}
+
+.rotk-about-us-bottom{
+    background:url('images/about-bottom-bg.jpg') top left repeat;
+    background-size:100% 100% !important;
+	-moz-background-size:100% 100%;  /* Firefox 3.6 */
+}
+
+.rotk-taster-bottom{
+    background:url('images/taster-bottom-bg.jpg') top left repeat;
+    background-size:100% 100% !important;
+	-moz-background-size:100% 100%;  /* Firefox 3.6 */
+}
+
+.rotk-footer-top{
+    background:url(images/footer-top-bg.jpg) top left repeat;
+    background-size:100% 100% !important;
+	-moz-background-size:100% 100%;  /* Firefox 3.6 */
+}
+
+.rotk-footer-top img{
+    background:url(images/six-poem-bottom-bg.jpg) top left repeat;
+    background-size:100% 100% !important;
+	-moz-background-size:100% 100%;  /* Firefox 3.6 */
+}
+
+.rotk-submit{
+	display:block!important;
+}
+
+.rotk-scroll-detection{
+	border-top: 3px solid #ffe700!important;
+	border-bottom: 3px solid #ffe700!important;
+}
+
+/*... header ....*/
+.rotk-head{
+    background:#ffe700;
+}
+
+.rotk-header-left{
+    margin-top:20px;
+}   
+
+.rotk-header-middle,
+.rotk-header-right,
+.rotk-poems,
+.rotk-left-image,
+.rotk-right-image,
+.rotk-copyright,
+.rotk-slider-bottom-left,
+.rotk-slider-bottom-middle,
+.rotk-slider-bottom-right{
+    text-align: center;
+}
+
+.rotk-header-middle img{
+	margin-top:31px;
+	margin-bottom:20px;
+}
+
+.rotk-header-right{}
+
+.rotk-header-right img{
+	margin-top:14px;
+	margin-bottom:14px;
+}
+
+.rotk-dashedline{
+	position: absolute;
+	z-index: 5;
+	left: 19%;
+	top: -17%;
+}
+
+.rotk-form-custom{
+	position:relative;
+	z-index: 10;
+}
+
+
+/*... Six-poem ....*/
+.rotk-six-poem{
+    background:#ffe700;
+}
+
+.rotk-poems{}
+ 
+.rotk-poems img{
+    margin:30px 0px;
+ }
+ 
+.rotk-left-image{}
+
+.rotk-left-image img{
+    margin-top: -65px;
+    margin-bottom: 10px;
+}
+
+.rotk-send-mail{
+    text-align: center;
+    position: relative;
+}
+
+.rotk-send-mail h4{
+    color:#000;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.rotk-send-mail h4 span{
+    margin-left: 100px;
+}
+
+.rotk-campaign{
+    margin-top: 63px;
+    
+}
+
+.rotk-campaign h3{
+	text-transform: uppercase;
+	font-size: 17px;
+	margin-top:20px;
+	letter-spacing: 2px;
+	color: #000;
+	text-align: center;
+	line-height: 24px;
+}
+
+.rotk-campaign h3 span{
+	font-size: 23px;
+}
+.rotk-selected-poem{
+	margin-top: 63px;
+    
+    
+}
+
+.rotk-selected-poem h4{
+	font-size: 21px;
+	font-style: italic;
+	margin-bottom: 25px;
+	color: #000;
+	text-align: center;
+	margin-top: 48px;
+}
+
+.rotk-selected-poem p{
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	font-weight: 600;
+	width: 100%;
+}
+
+.rotk-right-image{}
+
+.rotk-right-image img{}
+
+
+/*... about-us ....*/
+.rotk-about-us{
+    background:#ffe700;
+}
+
+.rotk-about-yellow{
+    text-align:center;
+}
+
+.rotk-about-yellow h2{
+	text-transform:uppercase;
+	font-size:18px;
+	margin-top:30px;
+	letter-spacing:2px;
+	font-weight:bold;
+	margin-bottom:17px;
+	color:#000;
+}
+
+.rotk-about-yellow h2 span{
+    font-size:25px;
+}
+
+.rotk-about-yellow h4{
+	font-size:18px;
+	font-style:italic;
+	margin-bottom:25px;
+	color:#000;
+}
+
+.rotk-about-yellow p{
+	font-size:14px;
+	color:#000;
+}
+
+/*... slider ....*/
+.rotk-slider{
+    background:#ffe700;
+}
+
+.rotk-custom-row{
+	margin: 0 auto;
+}
+.rotk-custom-para {}
+.rotk-custom-col{}
+.rotk-custom-col  img{}
+.rotk-custom-para  p{
+	width: 230px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	color:#000;
+	text-align: justify !important;
+}
+.rotk-slider-bottom{
+    margin-bottom:20px;
+}
+
+.rotk-slider-bottom-left{}
+.rotk-slider-bottom-left img{}
+.rotk-slider-bottom-middle{}
+.rotk-slider-bottom-middle img{
+    margin-top: 85px;
+}
+
+.rotk-slider-bottom-right{}
+
+.rotk-slider-bottom-right img{
+    margin-top: 8px;
+}
+
+.rotk-item img{
+    margin-bottom:20px !important;
+} 
+
+/*... Participents ....*/
+.rotk-single-participent-row,.rotk-carousel{
+    width:90%;
+    margin:auto;
+}
+.rotk-control{
+	position:absolute;
+	top:50%;
+	margin-top:-20px;
+}
+.carousel-control{
+	background-image: none!important;
+	opacity:.9;
+}
+.item {
+    text-align:center;
+}
+.item h1, .item h4{
+	text-align:center;
+	color:#000000;
+}
+.item h1{
+    font-size: 30px;
+}
+.item h4{
+	font-style:italic;
+	font-size: 12px;
+}
+.rotk-participents{
+    background:#ffe700;
+}
+
+.rotk-part{}
+.rotk-part h2{
+	text-transform:uppercase;
+	font-size:18px;
+	margin-top:30px;
+	letter-spacing:2px;
+	font-weight:bold;
+	margin-bottom:17px;
+	color:#000;
+	text-align:center;
+}
+
+.rotk-part h2 span{
+    font-size:25px;
+}
+
+.rotk-part p{
+	font-size:18px;
+	margin-bottom:25px;
+	color:#000;
+}
+
+.rotk-single-participent{
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.rotk-single-participent img{}
+
+#johny-img {
+    margin-top: 39px;
+}
+
+.rotk-single-participent h3{
+	text-transform:uppercase;
+	font-size:12px;
+	letter-spacing:2px;
+	font-weight:bold;
+	margin-bottom:17px;
+	color:#000;
+	text-align:center;
+}
+
+.rotk-single-participent h3 span{
+    font-size:20px;
+}
+.margin_top{
+    margin-top:21px;
+}
+.margin_top1{
+    margin-top:44px;
+}
+
+/* footer */
+
+.rotk-footer{
+    background:#ffe700;
+}
+
+.rotk-copyright{}
+
+.rotk-copyright p{
+	font-size: 16px;
+	color: #000;
+	margin-top: 7px;
+	font-weight: 600;
+}
+.rotk-copyright p span{
+    font-size: 17px;
+}
+
+@font-face {
+	font-family: "Theano Didot";
+	src: url('fonts/855499268-TheanoDidot-Regular.eot');
+	src: url('fonts/855499268-TheanoDidot-Regular.eot?#iefix') format('embedded-opentype'),
+	url('fonts/855499268-TheanoDidot-Regular.svg#Theano Didot') format('svg'),
+	url('fonts/855499268-TheanoDidot-Regular.woff') format('woff'),
+	url('fonts/855499268-TheanoDidot-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
